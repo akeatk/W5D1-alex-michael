@@ -1,0 +1,20 @@
+.sections-nav {
+  ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    li {
+      font-family: $sans-serif;
+      margin: 5px 8px;
+      
+      .all {
+        font-size: 10px;
+        text-transform: uppercase;
+      }
+      
+      .all:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
